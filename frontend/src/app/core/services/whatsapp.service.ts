@@ -3,8 +3,7 @@ import { Product } from '../models/product.model';
 
 @Injectable({ providedIn: 'root' })
 export class WhatsappService {
-  // TODO: Replace with your real business WhatsApp number (with country code, no + or spaces)
-  private readonly whatsappNumber = '91XXXXXXXXXX';
+  private readonly whatsappNumber = '918948220796';//papa ka no.
 
   openProductInquiry(product: Product): void {
     const message =

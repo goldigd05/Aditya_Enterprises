@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, ],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss'
 })
@@ -23,6 +23,13 @@ export class AboutComponent {
     { year: '2020', title: 'Crossed 300+ Clients', desc: 'Built long-term relationships with builders and contractors.' },
     { year: '2023', title: '1000+ Products', desc: 'Grew our inventory to serve every architectural hardware need.' },
     { year: '2026', title: 'Digital Expansion', desc: 'Launched our online presence to serve customers nationwide.' }
+  ];
+
+  credentials = [
+    { title: 'GST Registered', desc: 'GSTIN: XXXXXXXXXXXXXXX (replace with your actual number)' },
+    { title: 'MSME / Udyam Registered', desc: 'Udyam Reg. No: XXXXXXXXXXX (replace with your actual number)' },
+    { title: 'ISO Certified', desc: 'ISO 9001:2015 Quality Management (add your cert if you have one)' },
+    { title: 'Business Registration', desc: 'Aditya Enterprises, Est. 2017 (add your registration/license details)' }
   ];
 
   achievements = [

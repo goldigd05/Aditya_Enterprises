@@ -1,0 +1,104 @@
+@use '../../../../assets/scss/variables' as v;
+@use '../../../../assets/scss/mixins' as m;
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(10,37,64,0.65);
+  z-index: 2000;
+  @include m.flex-center;
+  padding: 20px;
+}
+
+.modal-panel {
+  background: v.$white;
+  border-radius: v.$radius-lg;
+  max-width: 900px;
+  width: 100%;
+  max-height: 88vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: v.$shadow-lg;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @include m.respond(tablet) { grid-template-columns: 1fr; }
+  }
+
+  &__image {
+    background: v.$light-gray;
+    img { width: 100%; height: 100%; object-fit: cover; min-height: 280px; }
+  }
+
+  &__content {
+    padding: 32px;
+
+    h2 { font-size: 24px; margin: 8px 0 14px; }
+    h4 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; color: v.$navy; margin: 18px 0 10px; }
+  }
+
+  &__category {
+    display: inline-block;
+    background: v.$light-gray;
+    color: v.$navy;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  &__desc {
+    color: v.$text-muted;
+    font-size: 14.5px;
+    line-height: 1.7;
+  }
+
+  &__specs {
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px dashed v.$mid-gray;
+      font-size: 13.5px;
+      span { color: v.$text-muted; }
+    }
+  }
+
+  &__features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    span {
+      background: rgba(200,16,46,0.08);
+      color: v.$red;
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 20px;
+    }
+  }
+
+  &__buy {
+    width: 100%;
+    margin-top: 24px;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 16px; right: 16px;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: v.$light-gray;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 10;
+  @include m.flex-center;
+  transition: all v.$transition-fast;
+
+  &:hover { background: v.$red; color: v.$white; }
+}

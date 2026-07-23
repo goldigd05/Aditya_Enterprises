@@ -1,0 +1,119 @@
+@use '../../../../assets/scss/variables' as v;
+@use '../../../../assets/scss/mixins' as m;
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: v.$white;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+  transition: box-shadow v.$transition-base, padding v.$transition-base;
+  padding: 14px 0;
+
+  &.scrolled {
+    box-shadow: v.$shadow-md;
+    padding: 8px 0;
+  }
+
+  &__inner {
+    @include m.flex-between;
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__logo {
+    height: 42px;
+    width: auto;
+  }
+
+  &__brand-text {
+    font-family: v.$font-heading;
+    font-size: 19px;
+    color: v.$navy;
+
+    strong { color: v.$red; }
+
+    @include m.respond(mobile) { font-size: 15px; }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+
+    a {
+      font-weight: 500;
+      color: v.$text-dark;
+      font-size: 15px;
+      position: relative;
+      padding: 6px 0;
+      transition: color v.$transition-fast;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0; bottom: 0;
+        width: 0; height: 2px;
+        background: v.$red;
+        transition: width v.$transition-base;
+      }
+
+      &:hover, &.active { color: v.$red; }
+      &:hover::after, &.active::after { width: 100%; }
+    }
+
+    @include m.respond(laptop) {
+      position: fixed;
+      top: 70px;
+      right: -100%;
+      flex-direction: column;
+      background: v.$white;
+      width: 260px;
+      height: calc(100vh - 70px);
+      padding: 30px 24px;
+      box-shadow: v.$shadow-lg;
+      transition: right v.$transition-base;
+      align-items: flex-start;
+      gap: 22px;
+
+      &.open { right: 0; }
+    }
+  }
+
+  &__cta {
+    padding: 10px 22px !important;
+    font-size: 14px !important;
+
+    &::after { display: none; }
+  }
+
+  &__toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+
+    span {
+      width: 26px;
+      height: 3px;
+      background: v.$navy;
+      border-radius: 2px;
+      transition: all v.$transition-base;
+    }
+
+    &.open {
+      span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+      span:nth-child(2) { opacity: 0; }
+      span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+    }
+
+    @include m.respond(laptop) { display: flex; }
+  }
+}

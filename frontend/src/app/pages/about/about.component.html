@@ -1,0 +1,101 @@
+<section class="page-header">
+  <div class="container">
+    <span class="section-label">About Us</span>
+    <h1>Building Trust, One Door At A Time</h1>
+    <p>Learn about our journey, mission and the values that drive Aditya Enterprises forward.</p>
+  </div>
+</section>
+
+<section class="section intro">
+  <div class="container intro__grid">
+    <div class="intro__image">
+      <img src="assets/images/about-workshop.jpg" alt="Aditya Enterprises Workshop" />
+    </div>
+    <div class="intro__content">
+      <span class="section-label">Who We Are</span>
+      <h2 class="section-title">Your Trusted Hardware Partner</h2>
+      <p>
+        Aditya Enterprises has been a reliable name in architectural hardware for over a decade.
+        We specialize in supplying premium door handles, hinges, locks, closers, glass fittings
+        and cabinet hardware to builders, contractors, architects and homeowners across India.
+      </p>
+      <p>
+        Our commitment to quality, competitive pricing and dependable service has helped us build
+        long-lasting relationships with hundreds of satisfied clients.
+      </p>
+
+      <div class="intro__mission-vision">
+        <div>
+          <h4>Our Mission</h4>
+          <p>To deliver premium quality hardware solutions with unmatched service and reliability.</p>
+        </div>
+        <div>
+          <h4>Our Vision</h4>
+          <p>To become India's most trusted architectural hardware brand.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm values">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Why Choose Us</span>
+      <h2 class="section-title">Our Business Values</h2>
+    </div>
+
+    <div class="values__grid">
+      <div class="values__item" *ngFor="let v of values">
+        <h3>{{ v.title }}</h3>
+        <p>{{ v.desc }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section timeline-section">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Our Journey</span>
+      <h2 class="section-title">Company Timeline</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline__item" *ngFor="let t of timeline">
+        <div class="timeline__year">{{ t.year }}</div>
+        <div class="timeline__content">
+          <h4>{{ t.title }}</h4>
+          <p>{{ t.desc }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm owner">
+  <div class="container owner__grid">
+    <div class="owner__image">
+      <img src="assets/images/owner.jpg" alt="Founder - Aditya Enterprises" />
+    </div>
+    <div class="owner__content">
+      <span class="section-label">Leadership</span>
+      <h2 class="section-title">A Word From Our Founder</h2>
+      <p>
+        "We started Aditya Enterprises with a simple goal — to make premium hardware accessible
+        and reliable for every builder and homeowner. That commitment remains unchanged even today."
+      </p>
+      <h4>Aditya Sharma</h4>
+      <span>Founder &amp; Managing Director</span>
+    </div>
+  </div>
+</section>
+
+<section class="achievements">
+  <div class="container achievements__grid">
+    <div class="achievements__item" *ngFor="let a of achievements">
+      <span>✔</span>
+      <p>{{ a }}</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,76 @@
+<app-hero></app-hero>
+<app-stats></app-stats>
+
+<!-- Features -->
+<section class="section features">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Why Aditya Enterprises</span>
+      <h2 class="section-title">Built On Trust &amp; Quality</h2>
+    </div>
+
+    <div class="features__grid">
+      <div class="features__item" *ngFor="let f of features">
+        <div class="features__icon">{{ f.icon }}</div>
+        <h3>{{ f.title }}</h3>
+        <p>{{ f.desc }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Products -->
+<section class="section featured-products">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Our Range</span>
+      <h2 class="section-title">Featured Products</h2>
+      <p class="section-subtitle" style="margin-left:auto;margin-right:auto;">
+        Explore our most trusted architectural hardware, engineered for durability and style.
+      </p>
+    </div>
+
+    <div class="featured-products__grid">
+      <app-product-card
+        *ngFor="let product of featuredProducts"
+        [product]="product"
+        (viewDetails)="openProduct($event)">
+      </app-product-card>
+    </div>
+
+    <div class="text-center">
+      <a routerLink="/products" class="btn btn-outline">View All Products</a>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials teaser -->
+<section class="section-sm testimonials-teaser">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Testimonials</span>
+      <h2 class="section-title">What Our Clients Say</h2>
+    </div>
+
+    <div class="testimonials-teaser__grid">
+      <app-review-card *ngFor="let review of featuredReviews" [review]="review"></app-review-card>
+    </div>
+
+    <div class="text-center">
+      <a routerLink="/reviews" class="btn btn-outline">Read More Reviews</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="container cta__inner">
+    <div>
+      <h2>Need Hardware Solutions For Your Project?</h2>
+      <p>Get in touch with our team for bulk pricing, samples and technical support.</p>
+    </div>
+    <a routerLink="/contact" class="btn btn-white">Get In Touch</a>
+  </div>
+</section>
+
+<app-product-modal [product]="selectedProduct" (close)="closeModal()"></app-product-modal>

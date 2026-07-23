@@ -1,0 +1,31 @@
+<div class="modal-backdrop" *ngIf="product" @modalAnim (click)="onClose()">
+  <div class="modal-panel" @panelAnim (click)="stop($event)">
+    <button class="modal-close" (click)="onClose()" aria-label="Close">&times;</button>
+
+    <div class="modal-panel__grid">
+      <div class="modal-panel__image">
+        <img [src]="product.image" [alt]="product.name" />
+      </div>
+
+      <div class="modal-panel__content">
+        <span class="modal-panel__category">{{ product.category }}</span>
+        <h2>{{ product.name }}</h2>
+        <p class="modal-panel__desc">{{ product.description }}</p>
+
+        <h4>Specifications</h4>
+        <ul class="modal-panel__specs">
+          <li *ngFor="let spec of product.specifications">
+            <span>{{ spec.label }}</span><strong>{{ spec.value }}</strong>
+          </li>
+        </ul>
+
+        <h4>Features</h4>
+        <div class="modal-panel__features">
+          <span *ngFor="let f of product.features">{{ f }}</span>
+        </div>
+
+        <button class="btn btn-primary modal-panel__buy" (click)="onBuyNow()">Buy Now on WhatsApp</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "r001",
+    "name": "Rajesh Mehta",
+    "company": "Mehta Builders",
+    "rating": 5,
+    "message": "Excellent quality hardware and very professional service. We have been sourcing our door fittings from Aditya Enterprises for 3 years now.",
+    "date": "2026-05-12"
+  },
+  {
+    "id": "r002",
+    "name": "Priya Sharma",
+    "company": "Sharma Interiors",
+    "rating": 5,
+    "message": "Great range of cabinet handles and glass fittings. Delivery was fast and the products matched exactly what was shown.",
+    "date": "2026-04-28"
+  },
+  {
+    "id": "r003",
+    "name": "Amit Kulkarni",
+    "company": "Kulkarni Construction Co.",
+    "rating": 4,
+    "message": "Reliable supplier for mortise locks and door closers. Pricing is competitive and support team is responsive.",
+    "date": "2026-03-15"
+  },
+  {
+    "id": "r004",
+    "name": "Sneha Iyer",
+    "rating": 5,
+    "message": "Bought door seals and hinges for our office renovation. Very happy with the quality and after-sales support.",
+    "date": "2026-02-20"
+  },
+  {
+    "id": "r005",
+    "name": "Vikram Singh",
+    "company": "Singh Real Estate",
+    "rating": 5,
+    "message": "Trusted hardware partner for all our projects. Their electric magnetic locks are top-notch quality.",
+    "date": "2026-01-10"
+  },
+  {
+    "id": "r006",
+    "name": "Anjali Deshpande",
+    "rating": 4,
+    "message": "Good products overall, packaging could be slightly better but the hardware itself is durable and well finished.",
+    "date": "2025-12-05"
+  }
+]

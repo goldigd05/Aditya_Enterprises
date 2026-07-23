@@ -1,0 +1,25 @@
+<header class="navbar" [class.scrolled]="isScrolled">
+  <div class="container navbar__inner">
+    <a routerLink="/" class="navbar__brand" (click)="closeMobileMenu()">
+      <img src="assets/images/logo.png" alt="Aditya Enterprises Logo" class="navbar__logo" />
+      <span class="navbar__brand-text">
+        <strong>Aditya</strong> Enterprises
+      </span>
+    </a>
+
+    <nav class="navbar__links" [class.open]="isMobileMenuOpen">
+      <a *ngFor="let link of navLinks"
+         [routerLink]="link.path"
+         routerLinkActive="active"
+         [routerLinkActiveOptions]="{ exact: link.path === '/' }"
+         (click)="closeMobileMenu()">
+        {{ link.label }}
+      </a>
+      <a routerLink="/contact" class="btn btn-primary navbar__cta" (click)="closeMobileMenu()">Get Quote</a>
+    </nav>
+
+    <button class="navbar__toggle" (click)="toggleMobileMenu()" [class.open]="isMobileMenuOpen" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>

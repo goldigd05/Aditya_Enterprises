@@ -1,0 +1,23 @@
+<article class="product-card">
+  <div class="product-card__image" (click)="onImageClick()">
+    <img [src]="product.image" [alt]="product.name" loading="lazy" />
+    <span class="product-card__badge" *ngIf="product.badge">{{ product.badge }}</span>
+    <span class="product-card__category">{{ product.category }}</span>
+  </div>
+
+  <div class="product-card__body">
+    <h3>{{ product.name }}</h3>
+    <p class="product-card__desc">{{ product.shortDescription }}</p>
+
+    <ul class="product-card__specs">
+      <li *ngFor="let spec of product.specifications.slice(0, 2)">
+        <strong>{{ spec.label }}:</strong> {{ spec.value }}
+      </li>
+    </ul>
+
+    <div class="product-card__actions">
+      <button class="btn btn-outline" (click)="onImageClick()">View Details</button>
+      <button class="btn btn-primary" (click)="onBuyNow($event)">Buy Now</button>
+    </div>
+  </div>
+</article>

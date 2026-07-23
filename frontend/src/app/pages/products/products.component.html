@@ -1,0 +1,44 @@
+<section class="page-header">
+  <div class="container">
+    <span class="section-label">Our Catalog</span>
+    <h1>Premium Hardware Products</h1>
+    <p>Explore our complete range of door hardware, locks, closers and architectural fittings.</p>
+  </div>
+</section>
+
+<section class="section products-page">
+  <div class="container">
+    <div class="products-page__toolbar">
+      <div class="products-page__search">
+        <input
+          type="text"
+          placeholder="Search products..."
+          [value]="searchTerm"
+          (input)="onSearch($any($event.target).value)" />
+      </div>
+
+      <div class="products-page__filters">
+        <button
+          *ngFor="let cat of categories"
+          [class.active]="activeCategory === cat"
+          (click)="filterByCategory(cat)">
+          {{ cat }}
+        </button>
+      </div>
+    </div>
+
+    <div class="products-page__grid" *ngIf="filteredProducts.length; else noResults">
+      <app-product-card
+        *ngFor="let product of filteredProducts"
+        [product]="product"
+        (viewDetails)="openProduct($event)">
+      </app-product-card>
+    </div>
+
+    <ng-template #noResults>
+      <p class="products-page__empty">No products found. Try a different search or category.</p>
+    </ng-template>
+  </div>
+</section>
+
+<app-product-modal [product]="selectedProduct" (close)="closeModal()"></app-product-modal>

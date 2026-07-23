@@ -1,0 +1,43 @@
+@use '../../../../assets/scss/variables' as v;
+@use '../../../../assets/scss/mixins' as m;
+
+.review-card {
+  @include m.card;
+  @include m.card-hover;
+  padding: 28px;
+
+  &__stars {
+    margin-bottom: 14px;
+    span {
+      color: v.$mid-gray;
+      font-size: 18px;
+      &.filled { color: #f5a623; }
+    }
+  }
+
+  &__message {
+    font-size: 14.5px;
+    color: v.$text-dark;
+    line-height: 1.7;
+    margin-bottom: 22px;
+    min-height: 90px;
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    strong { display: block; font-size: 14.5px; color: v.$navy; }
+    span { font-size: 12.5px; color: v.$text-muted; }
+  }
+
+  &__avatar {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: v.$navy;
+    color: v.$white;
+    font-weight: 700;
+    @include m.flex-center;
+  }
+}

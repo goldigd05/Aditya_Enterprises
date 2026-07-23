@@ -1,0 +1,49 @@
+<form class="contact-form" [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+  <div class="contact-form__row">
+    <div class="contact-form__field">
+      <label for="name">Full Name *</label>
+      <input id="name" type="text" formControlName="name" placeholder="Your name" />
+      <small class="error" *ngIf="f['name'].touched && f['name'].invalid">Please enter a valid name (min 2 characters).</small>
+    </div>
+
+    <div class="contact-form__field">
+      <label for="phone">Phone Number *</label>
+      <input id="phone" type="tel" formControlName="phone" placeholder="+91 98765 43210" />
+      <small class="error" *ngIf="f['phone'].touched && f['phone'].invalid">Please enter a valid phone number.</small>
+    </div>
+  </div>
+
+  <div class="contact-form__row">
+    <div class="contact-form__field">
+      <label for="email">Email Address *</label>
+      <input id="email" type="email" formControlName="email" placeholder="you@company.com" />
+      <small class="error" *ngIf="f['email'].touched && f['email'].invalid">Please enter a valid email.</small>
+    </div>
+
+    <div class="contact-form__field">
+      <label for="company">Company Name</label>
+      <input id="company" type="text" formControlName="company" placeholder="Your company (optional)" />
+    </div>
+  </div>
+
+  <div class="contact-form__field">
+    <label for="productInterested">Product Interested</label>
+    <select id="productInterested" formControlName="productInterested">
+      <option value="">Select a product category</option>
+      <option *ngFor="let p of productOptions" [value]="p">{{ p }}</option>
+    </select>
+  </div>
+
+  <div class="contact-form__field">
+    <label for="message">Message *</label>
+    <textarea id="message" rows="5" formControlName="message" placeholder="Tell us what you need..."></textarea>
+    <small class="error" *ngIf="f['message'].touched && f['message'].invalid">Message must be at least 10 characters.</small>
+  </div>
+
+  <button type="submit" class="btn btn-primary contact-form__submit" [disabled]="isSubmitting">
+    {{ isSubmitting ? 'Sending...' : 'Send Message' }}
+  </button>
+
+  <p class="contact-form__success" *ngIf="submitSuccess">✅ Thank you! Your message has been sent successfully.</p>
+  <p class="contact-form__error" *ngIf="submitError">❌ Something went wrong. Please try again or contact us directly.</p>
+</form>

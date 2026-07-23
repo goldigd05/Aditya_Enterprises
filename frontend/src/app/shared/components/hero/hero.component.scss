@@ -1,0 +1,88 @@
+@use '../../../../assets/scss/variables' as v;
+@use '../../../../assets/scss/mixins' as m;
+
+.hero {
+  background: linear-gradient(180deg, v.$light-gray 0%, v.$white 100%);
+  padding: 90px 0 60px;
+  overflow: hidden;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    align-items: center;
+    gap: 50px;
+
+    @include m.respond(laptop) {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
+
+  &__eyebrow {
+    display: inline-block;
+    background: rgba(200,16,46,0.08);
+    color: v.$red;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 22px;
+
+    span { color: v.$red; }
+
+    @include m.respond(laptop) { font-size: 36px; }
+    @include m.respond(mobile) { font-size: 30px; }
+  }
+
+  p {
+    font-size: 17px;
+    color: v.$text-muted;
+    max-width: 520px;
+    margin-bottom: 34px;
+
+    @include m.respond(laptop) { margin-left: auto; margin-right: auto; }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 16px;
+
+    @include m.respond(laptop) { justify-content: center; }
+    @include m.respond(mobile) { flex-direction: column; }
+  }
+
+  &__image {
+    position: relative;
+
+    img {
+      width: 100%;
+      border-radius: v.$radius-lg;
+      box-shadow: v.$shadow-lg;
+    }
+
+    &-badge {
+      position: absolute;
+      bottom: -20px;
+      left: -20px;
+      background: v.$navy;
+      color: v.$white;
+      padding: 18px 22px;
+      border-radius: v.$radius-md;
+      box-shadow: v.$shadow-lg;
+      text-align: center;
+
+      strong { display: block; font-size: 26px; color: v.$red; }
+      span { font-size: 12px; }
+
+      @include m.respond(laptop) { left: 50%; transform: translateX(-50%); bottom: -18px; }
+    }
+  }
+}

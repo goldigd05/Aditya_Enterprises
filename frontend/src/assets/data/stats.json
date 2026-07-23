@@ -1,0 +1,6 @@
+[
+  { "label": "Products", "value": "1000+", "icon": "box" },
+  { "label": "Happy Clients", "value": "500+", "icon": "users" },
+  { "label": "Years Experience", "value": "10+", "icon": "clock" },
+  { "label": "Quality", "value": "Guaranteed", "icon": "shield" }
+]

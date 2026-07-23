@@ -1,0 +1,13 @@
+<article class="review-card">
+  <div class="review-card__stars">
+    <span *ngFor="let s of stars; let i = index" [class.filled]="i < review.rating">★</span>
+  </div>
+  <p class="review-card__message">"{{ review.message }}"</p>
+  <div class="review-card__author">
+    <div class="review-card__avatar">{{ review.name.charAt(0) }}</div>
+    <div>
+      <strong>{{ review.name }}</strong>
+      <span *ngIf="review.company">{{ review.company }}</span>
+    </div>
+  </div>
+</article>

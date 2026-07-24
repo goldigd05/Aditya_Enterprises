@@ -1,11 +1,11 @@
-[
+[]
   {
     "id": "p001",
     "name": "Premium Stainless Steel Door Handle",
     "category": "Door Handles",
     "shortDescription": "Ergonomic, corrosion-resistant SS304 door handle for main doors.",
     "description": "Crafted from premium SS304 stainless steel, this door handle combines durability with a sleek modern finish. Designed for high-traffic commercial and residential doors, it resists rust and daily wear while offering a comfortable grip.",
-    "image": "assets/images/products/Aluminium D Handle, 250 mm(10 in), Black.jpg",
+    "image": "assets/images/products/door-handle-1.jpg",
     "images": [
       "assets/images/products/door-handle-1.jpg",
       "assets/images/products/door-handle-1b.jpg"
@@ -280,6 +280,600 @@
       "Complete Kit",
       "Easy Installation",
       "Durable Build"
+    ]
+  },
+  {
+    "id": "p011",
+    "name": "2D Corner Aluminium Coving",
+    "category": "Coving",
+    "shortDescription": "High-quality 2d corner aluminium coving built for durability and reliable daily use.",
+    "description": "2D Corner Aluminium Coving from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/2d-corner-aluminium-coving.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p012",
+    "name": "3D Corner Aluminium Coving",
+    "category": "Coving",
+    "shortDescription": "High-quality 3d corner aluminium coving built for durability and reliable daily use.",
+    "description": "3D Corner Aluminium Coving from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/3d-corner-aluminium-coving.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p013",
+    "name": "Automatic Door Drop Seal",
+    "category": "Door Drop Seal",
+    "shortDescription": "High-quality automatic door drop seal built for durability and reliable daily use.",
+    "description": "Automatic Door Drop Seal from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/automatic-door-drop-seal.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p014",
+    "name": "Automatic Door Drop Seal Catalog",
+    "category": "Door Drop Seal",
+    "shortDescription": "High-quality automatic door drop seal catalog built for durability and reliable daily use.",
+    "description": "Automatic Door Drop Seal Catalog from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/automatic-door-drop-seal-catalog.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p015",
+    "name": "Stainless Steel Dead Door Lock Set",
+    "category": "Door Locks",
+    "shortDescription": "High-quality stainless steel dead door lock set built for durability and reliable daily use.",
+    "description": "Stainless Steel Dead Door Lock Set from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/stainless-steel-dead-door-lock-set.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p016",
+    "name": "Door Frame Cap",
+    "category": "Accessories",
+    "shortDescription": "High-quality door frame cap built for durability and reliable daily use.",
+    "description": "Door Frame Cap from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/door-frame-cap.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p017",
+    "name": "Door Seals",
+    "category": "Door Seal",
+    "shortDescription": "High-quality door seals built for durability and reliable daily use.",
+    "description": "Door Seals from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/door-seals.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p018",
+    "name": "Door Panic Bar",
+    "category": "Door Panic Bar",
+    "shortDescription": "High-quality door panic bar built for durability and reliable daily use.",
+    "description": "Door Panic Bar from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/door-panic-bar.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p019",
+    "name": "Pass Box & Door Interlocking System",
+    "category": "Pass Box",
+    "shortDescription": "High-quality pass box & door interlocking system built for durability and reliable daily use.",
+    "description": "Pass Box & Door Interlocking System from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/pass-box-door-interlocking-system.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p020",
+    "name": "Stainless Steel 304 Gr DOP Port M8 Thread",
+    "category": "Accessories",
+    "shortDescription": "High-quality stainless steel 304 gr dop port m8 thread built for durability and reliable daily use.",
+    "description": "Stainless Steel 304 Gr DOP Port M8 Thread from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/stainless-steel-304-gr-dop-port-m8-thread.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p021",
+    "name": "Stainless Steel Door Stopper",
+    "category": "Accessories",
+    "shortDescription": "High-quality stainless steel door stopper built for durability and reliable daily use.",
+    "description": "Stainless Steel Door Stopper from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/stainless-steel-door-stopper.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p022",
+    "name": "Biometric Electric Magnet",
+    "category": "Electric Magnet Lock",
+    "shortDescription": "High-quality biometric electric magnet built for durability and reliable daily use.",
+    "description": "Biometric Electric Magnet from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/biometric-electric-magnet.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p023",
+    "name": "Stainless Steel 304 Gr Hepa Filter Clamp",
+    "category": "Accessories",
+    "shortDescription": "High-quality stainless steel 304 gr hepa filter clamp built for durability and reliable daily use.",
+    "description": "Stainless Steel 304 Gr Hepa Filter Clamp from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/stainless-steel-304-gr-hepa-filter-clamp.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p024",
+    "name": "Aluminium D Handle, 250 mm (10 in), Black",
+    "category": "Door Handles",
+    "shortDescription": "High-quality aluminium d handle, 250 mm (10 in), black built for durability and reliable daily use.",
+    "description": "Aluminium D Handle, 250 mm (10 in), Black from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/aluminium-d-handle-250-mm-10-in-black.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p025",
+    "name": "Hinge Plate",
+    "category": "Door Hinges",
+    "shortDescription": "High-quality hinge plate built for durability and reliable daily use.",
+    "description": "Hinge Plate from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/hinge-plate.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p026",
+    "name": "Hydraulic Door Closer Set",
+    "category": "Door Closer",
+    "shortDescription": "High-quality hydraulic door closer set built for durability and reliable daily use.",
+    "description": "Hydraulic Door Closer Set from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/hydraulic-door-closer-set.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p027",
+    "name": "SS 304 Pass Box Handle",
+    "category": "Pass Box",
+    "shortDescription": "High-quality ss 304 pass box handle built for durability and reliable daily use.",
+    "description": "SS 304 Pass Box Handle from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/ss-304-pass-box-handle.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p028",
+    "name": "Rubber Door Seal",
+    "category": "Door Seal",
+    "shortDescription": "High-quality rubber door seal built for durability and reliable daily use.",
+    "description": "Rubber Door Seal from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/rubber-door-seal.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p029",
+    "name": "Stainless Steel 304 Gr Flag Hinges",
+    "category": "Door Hinges",
+    "shortDescription": "High-quality stainless steel 304 gr flag hinges built for durability and reliable daily use.",
+    "description": "Stainless Steel 304 Gr Flag Hinges from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/stainless-steel-304-gr-flag-hinges.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p030",
+    "name": "Ball Bearing Hinge, SS, 4 Inch, 3 mm, SS Finish",
+    "category": "Door Hinges",
+    "shortDescription": "High-quality ball bearing hinge, ss, 4 inch, 3 mm, ss finish built for durability and reliable daily use.",
+    "description": "Ball Bearing Hinge, SS, 4 Inch, 3 mm, SS Finish from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/ball-bearing-hinge-ss-4-inch-3-mm-ss-finish.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p031",
+    "name": "Stainless Steel Mortise Lock",
+    "category": "Mortise Locks",
+    "shortDescription": "High-quality stainless steel mortise lock built for durability and reliable daily use.",
+    "description": "Stainless Steel Mortise Lock from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/stainless-steel-mortise-lock.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p032",
+    "name": "Stainless Steel Flush Bolt Set",
+    "category": "Accessories",
+    "shortDescription": "High-quality stainless steel flush bolt set built for durability and reliable daily use.",
+    "description": "Stainless Steel Flush Bolt Set from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/stainless-steel-flush-bolt-set.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p033",
+    "name": "Aluminium Flush Tower Bolt",
+    "category": "Accessories",
+    "shortDescription": "High-quality aluminium flush tower bolt built for durability and reliable daily use.",
+    "description": "Aluminium Flush Tower Bolt from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/aluminium-flush-tower-bolt.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p034",
+    "name": "Plastic Door Handles",
+    "category": "Door Handles",
+    "shortDescription": "High-quality plastic door handles built for durability and reliable daily use.",
+    "description": "Plastic Door Handles from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/plastic-door-handles.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p035",
+    "name": "Plastic Door Handles 2",
+    "category": "Door Handles",
+    "shortDescription": "High-quality plastic door handles 2 built for durability and reliable daily use.",
+    "description": "Plastic Door Handles 2 from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/plastic-door-handles-2.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p036",
+    "name": "Plastic Door Hinges",
+    "category": "Door Hinges",
+    "shortDescription": "High-quality plastic door hinges built for durability and reliable daily use.",
+    "description": "Plastic Door Hinges from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/plastic-door-hinges.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": "p037",
+    "name": "Black Plastic Door Hinges",
+    "category": "Door Hinges",
+    "shortDescription": "High-quality black plastic door hinges built for durability and reliable daily use.",
+    "description": "Black Plastic Door Hinges from Aditya Enterprises — manufactured to a high standard for long-lasting performance in residential and commercial applications.",
+    "image": "assets/images/products/black-plastic-door-hinges.png",
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Stainless Steel / Aluminium"
+      },
+      {
+        "label": "Finish",
+        "value": "Standard"
+      }
+    ],
+    "features": [
+      "Durable Build",
+      "Easy Installation"
     ]
   }
 ]

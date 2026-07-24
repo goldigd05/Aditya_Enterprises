@@ -5,15 +5,35 @@
     "category": "Door Handles",
     "shortDescription": "Ergonomic, corrosion-resistant SS304 door handle for main doors.",
     "description": "Crafted from premium SS304 stainless steel, this door handle combines durability with a sleek modern finish. Designed for high-traffic commercial and residential doors, it resists rust and daily wear while offering a comfortable grip.",
-    "image": "assets/images/products/door-handle-1.jpg",
-    "images": ["assets/images/products/door-handle-1.jpg", "assets/images/products/door-handle-1b.jpg"],
-    "specifications": [
-      { "label": "Material", "value": "SS304 Stainless Steel" },
-      { "label": "Finish", "value": "Matte Silver / PVD Gold" },
-      { "label": "Length", "value": "300mm" },
-      { "label": "Mounting", "value": "Screw Fix" }
+    "image": "assets/images/products/Aluminium D Handle, 250 mm(10 in), Black.jpg",
+    "images": [
+      "assets/images/products/door-handle-1.jpg",
+      "assets/images/products/door-handle-1b.jpg"
     ],
-    "features": ["Rust Resistant", "Heavy Duty", "Easy Installation", "5 Year Warranty"],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "SS304 Stainless Steel"
+      },
+      {
+        "label": "Finish",
+        "value": "Matte Silver / PVD Gold"
+      },
+      {
+        "label": "Length",
+        "value": "300mm"
+      },
+      {
+        "label": "Mounting",
+        "value": "Screw Fix"
+      }
+    ],
+    "features": [
+      "Rust Resistant",
+      "Heavy Duty",
+      "Easy Installation",
+      "5 Year Warranty"
+    ],
     "badge": "Best Seller"
   },
   {
@@ -24,12 +44,28 @@
     "description": "Engineered with precision ball bearings for silent, long-lasting operation. Ideal for heavy doors in offices, hotels and residences where durability and smooth motion are essential.",
     "image": "assets/images/products/door-hinge-1.jpg",
     "specifications": [
-      { "label": "Material", "value": "Stainless Steel" },
-      { "label": "Size", "value": "4 inch x 3 inch" },
-      { "label": "Load Capacity", "value": "Up to 60kg" },
-      { "label": "Bearing Type", "value": "Ball Bearing" }
+      {
+        "label": "Material",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Size",
+        "value": "4 inch x 3 inch"
+      },
+      {
+        "label": "Load Capacity",
+        "value": "Up to 60kg"
+      },
+      {
+        "label": "Bearing Type",
+        "value": "Ball Bearing"
+      }
     ],
-    "features": ["Noiseless Operation", "Anti-Rust Coating", "High Load Capacity"],
+    "features": [
+      "Noiseless Operation",
+      "Anti-Rust Coating",
+      "High Load Capacity"
+    ],
     "badge": "New"
   },
   {
@@ -40,11 +76,24 @@
     "description": "This automatic drop seal activates when the door closes, creating an airtight barrier against dust, noise, insects and drafts. A must-have for offices, hospitals and clean rooms.",
     "image": "assets/images/products/drop-seal-1.jpg",
     "specifications": [
-      { "label": "Material", "value": "Aluminium Body + Silicone Seal" },
-      { "label": "Length", "value": "830mm (Adjustable)" },
-      { "label": "Activation", "value": "Automatic Mechanical" }
+      {
+        "label": "Material",
+        "value": "Aluminium Body + Silicone Seal"
+      },
+      {
+        "label": "Length",
+        "value": "830mm (Adjustable)"
+      },
+      {
+        "label": "Activation",
+        "value": "Automatic Mechanical"
+      }
     ],
-    "features": ["Soundproofing", "Dust Protection", "Fire Rated Option Available"]
+    "features": [
+      "Soundproofing",
+      "Dust Protection",
+      "Fire Rated Option Available"
+    ]
   },
   {
     "id": "p004",
@@ -54,11 +103,24 @@
     "description": "Flexible PVC seal strip that fits seamlessly into door frame grooves, offering excellent weatherproofing, sound insulation and energy efficiency.",
     "image": "assets/images/products/door-seal-1.jpg",
     "specifications": [
-      { "label": "Material", "value": "PVC + Foam Core" },
-      { "label": "Color", "value": "Brown / White / Black" },
-      { "label": "Length", "value": "2.1m per piece" }
+      {
+        "label": "Material",
+        "value": "PVC + Foam Core"
+      },
+      {
+        "label": "Color",
+        "value": "Brown / White / Black"
+      },
+      {
+        "label": "Length",
+        "value": "2.1m per piece"
+      }
     ],
-    "features": ["Weatherproof", "Easy to Fit", "Energy Efficient"]
+    "features": [
+      "Weatherproof",
+      "Easy to Fit",
+      "Energy Efficient"
+    ]
   },
   {
     "id": "p005",
@@ -68,11 +130,24 @@
     "description": "A robust electromagnetic lock offering 280kg holding force, suitable for access-controlled doors in offices, apartments and secure facilities. Compatible with all major access control systems.",
     "image": "assets/images/products/em-lock-1.jpg",
     "specifications": [
-      { "label": "Holding Force", "value": "280 KG" },
-      { "label": "Voltage", "value": "12V/24V DC" },
-      { "label": "Material", "value": "Zinc Alloy Body" }
+      {
+        "label": "Holding Force",
+        "value": "280 KG"
+      },
+      {
+        "label": "Voltage",
+        "value": "12V/24V DC"
+      },
+      {
+        "label": "Material",
+        "value": "Zinc Alloy Body"
+      }
     ],
-    "features": ["Access Control Ready", "Fail-Safe Operation", "LED Status Indicator"],
+    "features": [
+      "Access Control Ready",
+      "Fail-Safe Operation",
+      "LED Status Indicator"
+    ],
     "badge": "Popular"
   },
   {
@@ -83,11 +158,24 @@
     "description": "Hydraulic door closer with adjustable closing speed and latching action, ensuring doors close smoothly and securely every time. Suitable for commercial and residential applications.",
     "image": "assets/images/products/door-closer-1.jpg",
     "specifications": [
-      { "label": "Door Weight", "value": "Up to 85kg" },
-      { "label": "Body Material", "value": "Aluminium Alloy" },
-      { "label": "Adjustment", "value": "Speed & Latch Control" }
+      {
+        "label": "Door Weight",
+        "value": "Up to 85kg"
+      },
+      {
+        "label": "Body Material",
+        "value": "Aluminium Alloy"
+      },
+      {
+        "label": "Adjustment",
+        "value": "Speed & Latch Control"
+      }
     ],
-    "features": ["Self Closing", "Adjustable Speed", "Fire Door Compatible"]
+    "features": [
+      "Self Closing",
+      "Adjustable Speed",
+      "Fire Door Compatible"
+    ]
   },
   {
     "id": "p007",
@@ -97,11 +185,24 @@
     "description": "Precision-engineered patch fitting for frameless glass doors, offering a clean, modern look for offices, showrooms and storefronts. Built to handle daily heavy use.",
     "image": "assets/images/products/glass-fitting-1.jpg",
     "specifications": [
-      { "label": "Material", "value": "SS316 Marine Grade" },
-      { "label": "Glass Thickness", "value": "10-12mm" },
-      { "label": "Finish", "value": "Mirror / Matte" }
+      {
+        "label": "Material",
+        "value": "SS316 Marine Grade"
+      },
+      {
+        "label": "Glass Thickness",
+        "value": "10-12mm"
+      },
+      {
+        "label": "Finish",
+        "value": "Mirror / Matte"
+      }
     ],
-    "features": ["Marine Grade Steel", "Sleek Design", "High Load Bearing"]
+    "features": [
+      "Marine Grade Steel",
+      "Sleek Design",
+      "High Load Bearing"
+    ]
   },
   {
     "id": "p008",
@@ -111,11 +212,24 @@
     "description": "A high-security mortise lock set with a 5-lever mechanism, complete with handles and matching cylinder. Designed for main entrance doors requiring maximum security.",
     "image": "assets/images/products/mortise-lock-1.jpg",
     "specifications": [
-      { "label": "Lever Count", "value": "5 Lever" },
-      { "label": "Material", "value": "Brass Body" },
-      { "label": "Backset", "value": "60mm / 70mm" }
+      {
+        "label": "Lever Count",
+        "value": "5 Lever"
+      },
+      {
+        "label": "Material",
+        "value": "Brass Body"
+      },
+      {
+        "label": "Backset",
+        "value": "60mm / 70mm"
+      }
     ],
-    "features": ["High Security", "Anti-Pick Cylinder", "Includes Handle Set"],
+    "features": [
+      "High Security",
+      "Anti-Pick Cylinder",
+      "Includes Handle Set"
+    ],
     "badge": "Best Seller"
   },
   {
@@ -126,11 +240,24 @@
     "description": "Sleek, minimalist cabinet pull handle designed for modular kitchens, wardrobes and furniture. Combines contemporary aesthetics with sturdy construction.",
     "image": "assets/images/products/cabinet-handle-1.jpg",
     "specifications": [
-      { "label": "Material", "value": "Aluminium Alloy" },
-      { "label": "Length", "value": "128mm / 160mm / 224mm" },
-      { "label": "Finish", "value": "Matte Black / Rose Gold / Silver" }
+      {
+        "label": "Material",
+        "value": "Aluminium Alloy"
+      },
+      {
+        "label": "Length",
+        "value": "128mm / 160mm / 224mm"
+      },
+      {
+        "label": "Finish",
+        "value": "Matte Black / Rose Gold / Silver"
+      }
     ],
-    "features": ["Scratch Resistant", "Modern Design", "Multiple Sizes"]
+    "features": [
+      "Scratch Resistant",
+      "Modern Design",
+      "Multiple Sizes"
+    ]
   },
   {
     "id": "p010",
@@ -140,9 +267,19 @@
     "description": "A complete hardware accessory kit including magnetic door stoppers, buffers, and mounting fixings, designed to complement any door hardware installation.",
     "image": "assets/images/products/accessories-1.jpg",
     "specifications": [
-      { "label": "Material", "value": "Zinc + Rubber Buffer" },
-      { "label": "Type", "value": "Magnetic / Floor Mount" }
+      {
+        "label": "Material",
+        "value": "Zinc + Rubber Buffer"
+      },
+      {
+        "label": "Type",
+        "value": "Magnetic / Floor Mount"
+      }
     ],
-    "features": ["Complete Kit", "Easy Installation", "Durable Build"]
+    "features": [
+      "Complete Kit",
+      "Easy Installation",
+      "Durable Build"
+    ]
   }
 ]

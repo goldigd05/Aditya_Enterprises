@@ -11,9 +11,9 @@ import { ContactFormComponent } from '../../shared/components/contact-form/conta
 })
 export class ContactComponent {
   contactInfo = [
-    { icon: '📍', label: 'Address', value: '123 Industrial Estate, Hardware Market, Mumbai, Maharashtra - 400001' },
-    { icon: '📞', label: 'Phone', value: '+91 00000 00000' },
-    { icon: '✉️', label: 'Email', value: 'info@adityaenterprises.com' },
-    { icon: '💬', label: 'WhatsApp', value: '+91 XXXXX XXXXX' }
+    { icon: '📍', label: 'Address', value: 'SHOP NO-10, SARASWATI ENCLAVE, KADIPUR INDUSTRIAL AREA, GURGAON, 122001, HARYANA, INDIA' },
+    { icon: '📞', label: 'Phone', value: '+91 9911659161' },
+    { icon: '✉️', label: 'Email', value: 'aditya0enterprises@gmail.com' },
+    { icon: '💬', label: 'WhatsApp', value: '+91 9911659161' }
   ];
 }

@@ -28,6 +28,6 @@ export class FooterComponent {
     { name: 'Facebook', icon: 'facebook', url: '#' },
     { name: 'Instagram', icon: 'instagram', url: '#' },
     { name: 'LinkedIn', icon: 'linkedin', url: '#' },
-    { name: 'WhatsApp', icon: 'whatsapp', url: 'https://wa.me/91XXXXXXXXXX' }
+    { name: 'WhatsApp', icon: 'whatsapp', url: 'https://wa.me/918948220796' }
   ];
 }

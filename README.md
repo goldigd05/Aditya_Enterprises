@@ -9,6 +9,12 @@ aditya-enterprises/
 ├── frontend/          Angular 19 app (deploy to Vercel)
 └── backend/           Node/Express API (deploy to Render)
 ```
+## Where the website is live
+ 
+- **Frontend (what customers see):** https://aditya-enterprises-eosin.vercel.app
+- **Backend (API/server):** https://aditya-enterprises-gaio.onrender.com
+- **Database:** MongoDB Atlas (cloud, already connected)
+- **Email service:** Brevo (transactional email API)
 
 ---
 
@@ -170,9 +176,3 @@ backend/
 
 ---
 
-## Notes
-- WhatsApp "Buy Now" opens `https://wa.me/91XXXXXXXXXX` with a pre-filled
-  message — **replace `91XXXXXXXXXX`** with your real business number in
-  `whatsapp.service.ts` and in the footer/contact templates.
-- Admin panel UI is not built yet, but the backend (JWT auth, Admin model,
-  protected CRUD routes) is fully ready for one to be added later.

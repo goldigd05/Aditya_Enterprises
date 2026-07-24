@@ -40,7 +40,7 @@ export class HomeComponent implements OnInit {
       this.featuredProducts = products.slice(0, 4);
     });
 
-    this.reviewService.getAll().subscribe((reviews) => {
+    this.reviewService.getManual().subscribe((reviews) => {
       this.featuredReviews = reviews.slice(0, 3);
     });
   }

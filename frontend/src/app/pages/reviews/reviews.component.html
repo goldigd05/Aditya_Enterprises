@@ -20,3 +20,47 @@
     </div>
   </div>
 </section>
+
+<section class="section-sm review-form-section">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Share Your Experience</span>
+      <h2 class="section-title">Leave a Review</h2>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="review-form">
+      <div class="review-form__row">
+        <div class="review-form__field">
+          <label>Your Name *</label>
+          <input type="text" formControlName="name" placeholder="Your name" />
+          <small *ngIf="f['name'].invalid && f['name'].touched">Please enter your name</small>
+        </div>
+        <div class="review-form__field">
+          <label>Company (optional)</label>
+          <input type="text" formControlName="company" placeholder="Your company" />
+        </div>
+      </div>
+
+      <div class="review-form__field">
+        <label>Your Rating *</label>
+        <div class="review-form__stars">
+          <span *ngFor="let s of stars" (click)="setRating(s)" [class.filled]="s <= f['rating'].value">★</span>
+        </div>
+      </div>
+
+      <div class="review-form__field">
+        <label>Your Review *</label>
+        <textarea formControlName="message" rows="4" placeholder="Tell us about your experience..."></textarea>
+        <small *ngIf="f['message'].invalid && f['message'].touched">Please write at least 10 characters</small>
+      </div>
+
+      <button type="submit" class="btn btn-primary review-form__submit" [disabled]="isSubmitting">
+        {{ isSubmitting ? 'Submitting...' : 'Submit Review' }}
+      </button>
+
+      <p class="review-form__success" *ngIf="submitSuccess">✅ Thank you! Your review has been submitted and will appear
+        here after approval.</p>
+      <p class="review-form__error" *ngIf="submitError">❌ Something went wrong. Please try again.</p>
+    </form>
+  </div>
+</section>

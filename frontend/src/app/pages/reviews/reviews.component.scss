@@ -1,33 +1,103 @@
-@use '../../../assets/scss/variables' as v;
-@use '../../../assets/scss/mixins' as m;
-
-.page-header {
-  background: v.$navy;
-  padding: 80px 0 50px;
-  text-align: center;
-
-  .section-label { color: #ff8a9c; }
-  h1 { color: v.$white; font-size: 38px; margin: 12px 0 12px; }
-  p { color: rgba(255,255,255,0.7); max-width: 560px; margin: 0 auto 20px; }
-
-  &__rating {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 8px;
-    background: rgba(255,255,255,0.08);
-    padding: 10px 22px;
-    border-radius: 30px;
-
-    strong { color: #f5a623; font-size: 22px; }
-    span { color: rgba(255,255,255,0.75); font-size: 13px; }
+.review-form-section {
+  .text-center {
+    text-align: center;
+    margin-bottom: 32px;
   }
 }
 
-.reviews-page__grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+.review-form {
+  @include m.card;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 36px;
 
-  @include m.respond(laptop) { grid-template-columns: 1fr 1fr; }
-  @include m.respond(mobile) { grid-template-columns: 1fr; }
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    @include m.respond(mobile) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__field {
+    margin-bottom: 20px;
+
+    label {
+      display: block;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: v.$navy;
+      margin-bottom: 8px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 13px 16px;
+      border: 1.5px solid v.$mid-gray;
+      border-radius: v.$radius-sm;
+      font-family: v.$font-body;
+      font-size: 14px;
+      color: v.$text-dark;
+      background: v.$white;
+
+      &:focus {
+        outline: none;
+        border-color: v.$red;
+        box-shadow: 0 0 0 3px rgba(200, 16, 46, 0.1);
+      }
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    small {
+      color: v.$red;
+      font-size: 12px;
+      display: block;
+      margin-top: 6px;
+    }
+  }
+
+  &__stars {
+    font-size: 28px;
+    letter-spacing: 4px;
+    cursor: pointer;
+
+    span {
+      color: v.$mid-gray;
+      transition: color 0.15s;
+
+      &.filled {
+        color: #f5a623;
+      }
+    }
+  }
+
+  &__submit {
+    width: 100%;
+    margin-top: 6px;
+
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+  }
+
+  &__success {
+    color: #1a7f37;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__error {
+    color: v.$red;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+  }
 }

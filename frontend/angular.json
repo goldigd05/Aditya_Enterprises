@@ -6,7 +6,10 @@
     "aditya-enterprises-frontend": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:component": { "style": "scss", "standalone": true }
+        "@schematics/angular:component": {
+          "style": "scss",
+          "standalone": true
+        }
       },
       "root": "",
       "sourceRoot": "src",
@@ -18,19 +21,40 @@
             "outputPath": "dist/aditya-enterprises-frontend",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": ["zone.js"],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
-            "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.scss"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
             "production": {
               "budgets": [
-                { "type": "initial", "maximumWarning": "500kb", "maximumError": "1mb" },
-                { "type": "anyComponentStyle", "maximumWarning": "4kb", "maximumError": "8kb" }
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "4kb",
+                  "maximumError": "8kb"
+                }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
             },
             "development": {
               "optimization": false,
@@ -44,8 +68,12 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "production": { "buildTarget": "aditya-enterprises-frontend:build:production" },
-            "development": { "buildTarget": "aditya-enterprises-frontend:build:development" }
+            "production": {
+              "buildTarget": "aditya-enterprises-frontend:build:production"
+            },
+            "development": {
+              "buildTarget": "aditya-enterprises-frontend:build:development"
+            }
           },
           "defaultConfiguration": "development"
         }
